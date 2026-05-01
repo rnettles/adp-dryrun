@@ -78,7 +78,7 @@
       "evidence": "REV-001 gate blocked verification — missing: AI_RULES.md"
     }
   ],
-  "verified_at": "2026-05-01T03:08:04.890Z",
+  "verified_at": "2026-05-01T03:08:17.065Z",
   "handoff": {
     "changed_scope": [],
     "verification_state": "fail",
