@@ -1,0 +1,108 @@
+{
+  "task_id": "S01-001",
+  "result": "FAIL",
+  "summary": "2 of 10 verification check(s) failed.",
+  "required_corrections": [
+    "task_id mismatch — brief declares 'undefined' but current_task.json contains 'S01-001'",
+    "CI gate failure — fix failing commands: `npm test`"
+  ],
+  "command_results": [
+    {
+      "command": "npm test",
+      "ok": false,
+      "exit_code": 4294963238,
+      "stdout": "",
+      "stderr": "npm error code ENOENT\nnpm error syscall open\nnpm error path C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\package.json\nnpm error errno -4058\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: C:\\Users\\randy\\AppData\\Local\\npm-cache\\_logs\\2026-05-01T03_11_12_342Z-debug-0.log\n\nCommand failed: npm test\nnpm error code ENOENT\nnpm error syscall open\nnpm error path C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\package.json\nnpm error errno -4058\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: C:\\Users\\randy\\AppData\\Local\\npm-cache\\_logs\\2026-05-01T03_11_12_342Z-debug-0.log\n",
+      "command_source": "baseline"
+    }
+  ],
+  "checks": [
+    {
+      "check_number": 1,
+      "check_name": "task_id_alignment",
+      "category": "filesystem",
+      "result": "FAIL",
+      "evidence": "brief task_id: '(not found)'; current_task.json task_id: 'S01-001'",
+      "failure_detail": "task_id mismatch — brief declares 'undefined' but current_task.json contains 'S01-001'"
+    },
+    {
+      "check_number": 2,
+      "check_name": "deliverable_completeness",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "Skipped — deterministic check failed"
+    },
+    {
+      "check_number": 3,
+      "check_name": "file_evidence",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "Skipped — deterministic check failed"
+    },
+    {
+      "check_number": 4,
+      "check_name": "contradiction_guardrail_behavior",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "Skipped — deterministic check failed"
+    },
+    {
+      "check_number": 5,
+      "check_name": "contradiction_guardrail_tests",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "Skipped — deterministic check failed"
+    },
+    {
+      "check_number": 6,
+      "check_name": "test_existence",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "Skipped — deterministic check failed"
+    },
+    {
+      "check_number": 7,
+      "check_name": "ci_evidence_quality",
+      "category": "command",
+      "result": "FAIL",
+      "evidence": "1 command(s) failed: `npm test`",
+      "failure_detail": "CI gate failure — fix failing commands: `npm test`"
+    },
+    {
+      "check_number": 8,
+      "check_name": "ui_evidence_playwright",
+      "category": "filesystem",
+      "result": "SKIP",
+      "evidence": "ui_evidence_required is false or absent in task flags — UX gate skipped"
+    },
+    {
+      "check_number": 9,
+      "check_name": "active_artifact_integrity",
+      "category": "filesystem",
+      "result": "PASS",
+      "evidence": "verification_result.json target: C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\project_work\\ai_project_tasks\\active\\verification_result.json; active-slot base: C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\project_work\\ai_project_tasks\\active"
+    },
+    {
+      "check_number": 10,
+      "check_name": "scope_expansion_guard",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "Skipped — deterministic check failed"
+    }
+  ],
+  "verified_at": "2026-05-01T03:11:12.619Z",
+  "handoff": {
+    "task_id": "S01-001",
+    "changed_scope": [],
+    "verification_state": "fail",
+    "open_risks": [
+      "Deterministic verification check failed; governance not evaluated."
+    ],
+    "next_role_action": "implementer_retry",
+    "evidence_refs": [
+      "project_work\\ai_project_tasks\\active\\AI_IMPLEMENTATION_BRIEF.md",
+      "check-1:task_id_alignment",
+      "check-7:ci_evidence_quality"
+    ]
+  }
+}
