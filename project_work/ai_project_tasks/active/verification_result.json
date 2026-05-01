@@ -12,7 +12,7 @@
       "ok": false,
       "exit_code": 4294963238,
       "stdout": "",
-      "stderr": "npm error code ENOENT\nnpm error syscall open\nnpm error path C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\package.json\nnpm error errno -4058\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: C:\\Users\\randy\\AppData\\Local\\npm-cache\\_logs\\2026-05-01T03_11_12_342Z-debug-0.log\n\nCommand failed: npm test\nnpm error code ENOENT\nnpm error syscall open\nnpm error path C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\package.json\nnpm error errno -4058\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: C:\\Users\\randy\\AppData\\Local\\npm-cache\\_logs\\2026-05-01T03_11_12_342Z-debug-0.log\n",
+      "stderr": "npm error code ENOENT\nnpm error syscall open\nnpm error path C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\package.json\nnpm error errno -4058\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: C:\\Users\\randy\\AppData\\Local\\npm-cache\\_logs\\2026-05-01T03_11_24_792Z-debug-0.log\n\nCommand failed: npm test\nnpm error code ENOENT\nnpm error syscall open\nnpm error path C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\package.json\nnpm error errno -4058\nnpm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\package.json'\nnpm error enoent This is related to npm not being able to find a file.\nnpm error enoent\nnpm error A complete log of this run can be found in: C:\\Users\\randy\\AppData\\Local\\npm-cache\\_logs\\2026-05-01T03_11_24_792Z-debug-0.log\n",
       "command_source": "baseline"
     }
   ],
@@ -90,7 +90,7 @@
       "evidence": "Skipped — deterministic check failed"
     }
   ],
-  "verified_at": "2026-05-01T03:11:12.619Z",
+  "verified_at": "2026-05-01T03:11:24.954Z",
   "handoff": {
     "task_id": "S01-001",
     "changed_scope": [],
