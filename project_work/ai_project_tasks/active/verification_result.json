@@ -1,0 +1,121 @@
+{
+  "task_id": "S01-001",
+  "result": "FAIL",
+  "summary": "1 of 10 verification check(s) failed.",
+  "required_corrections": [
+    "CI gate failure — fix failing commands: `npx tsc --noEmit`"
+  ],
+  "command_results": [
+    {
+      "command": "npm test",
+      "ok": true,
+      "exit_code": 0,
+      "stdout": "\n> adp-dryrun@1.0.0 test\n> exit 0\n\n",
+      "stderr": "",
+      "command_source": "baseline"
+    },
+    {
+      "command": "npm run lint",
+      "ok": true,
+      "exit_code": 0,
+      "stdout": "\n> adp-dryrun@1.0.0 lint\n> exit 0\n\n",
+      "stderr": "",
+      "command_source": "baseline"
+    },
+    {
+      "command": "npx tsc --noEmit",
+      "ok": false,
+      "exit_code": 1,
+      "stdout": "\n\u001b[41m                                                                               \u001b[0m\n\u001b[41m\u001b[37m                This is not the tsc command you are looking for                \u001b[0m\n\u001b[41m                                                                               \u001b[0m\n\nTo get access to the TypeScript compiler, \u001b[34mtsc\u001b[0m, from the command line either:\n\n- Use \u001b[1mnpm install typescript\u001b[0m to first add TypeScript to your project \u001b[1mbefore\u001b[0m using npx\n- Use \u001b[1myarn\u001b[0m to avoid accidentally running code from un-installed packages\n",
+      "stderr": "\nCommand failed: npx tsc --noEmit\n",
+      "command_source": "baseline"
+    }
+  ],
+  "checks": [
+    {
+      "check_number": 1,
+      "check_name": "task_id_alignment",
+      "category": "filesystem",
+      "result": "PASS",
+      "evidence": "brief task_id: 'S01-001'; current_task.json task_id: 'S01-001'"
+    },
+    {
+      "check_number": 2,
+      "check_name": "deliverable_completeness",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "Skipped — deterministic check failed"
+    },
+    {
+      "check_number": 3,
+      "check_name": "file_evidence",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "Skipped — deterministic check failed"
+    },
+    {
+      "check_number": 4,
+      "check_name": "contradiction_guardrail_behavior",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "Skipped — deterministic check failed"
+    },
+    {
+      "check_number": 5,
+      "check_name": "contradiction_guardrail_tests",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "Skipped — deterministic check failed"
+    },
+    {
+      "check_number": 6,
+      "check_name": "test_existence",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "Skipped — deterministic check failed"
+    },
+    {
+      "check_number": 7,
+      "check_name": "ci_evidence_quality",
+      "category": "command",
+      "result": "FAIL",
+      "evidence": "1 command(s) failed: `npx tsc --noEmit`",
+      "failure_detail": "CI gate failure — fix failing commands: `npx tsc --noEmit`"
+    },
+    {
+      "check_number": 8,
+      "check_name": "ui_evidence_playwright",
+      "category": "filesystem",
+      "result": "SKIP",
+      "evidence": "ui_evidence_required is false or absent in task flags — UX gate skipped"
+    },
+    {
+      "check_number": 9,
+      "check_name": "active_artifact_integrity",
+      "category": "filesystem",
+      "result": "PASS",
+      "evidence": "verification_result.json target: C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\project_work\\ai_project_tasks\\active\\verification_result.json; active-slot base: C:\\dev\\code\\ai-delivery-platform\\runtime\\git-clones\\adp-dryrun\\project_work\\ai_project_tasks\\active"
+    },
+    {
+      "check_number": 10,
+      "check_name": "scope_expansion_guard",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "Skipped — deterministic check failed"
+    }
+  ],
+  "verified_at": "2026-05-01T03:18:27.654Z",
+  "handoff": {
+    "task_id": "S01-001",
+    "changed_scope": [],
+    "verification_state": "fail",
+    "open_risks": [
+      "Deterministic verification check failed; governance not evaluated."
+    ],
+    "next_role_action": "implementer_retry",
+    "evidence_refs": [
+      "project_work\\ai_project_tasks\\active\\AI_IMPLEMENTATION_BRIEF.md",
+      "check-7:ci_evidence_quality"
+    ]
+  }
+}
