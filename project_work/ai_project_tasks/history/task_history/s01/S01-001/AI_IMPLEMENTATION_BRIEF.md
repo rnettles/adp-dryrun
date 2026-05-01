@@ -5,14 +5,13 @@
 **Phase:** P01
 
 ## Task Description
-Synthetic task produced by MockLlmProvider for workflow validation.
+
 
 ## Files Likely Affected
-- `dry-run-stub.txt`
+
 
 ## Acceptance Criteria (Deliverables Checklist)
-- [ ] Stub artifact exists.
-- [ ] Pipeline state machine advances.
+
 
 ## Task Flags
 - **fr_ids_in_scope:** ["FR-DRYRUN-001"]
