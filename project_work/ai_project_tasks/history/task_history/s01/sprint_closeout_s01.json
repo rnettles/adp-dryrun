@@ -1,5 +1,5 @@
 {
-  "pipeline_id": "pipe-2026-05-01-eff01719",
+  "pipeline_id": "pipe-2026-05-01-bf87cb36",
   "sprint_id": "s01",
   "sprint_branch": "feature/S01-001",
   "last_completed_task_id": "S01-001",
@@ -9,14 +9,14 @@
   "close_out_phase_completed": "pr_confirmed",
   "verifier_summary": "All 10 verification checks passed.",
   "sprint_complete_artifacts": [
-    "../../runtime/artifacts/pipe-2026-05-01-eff01719/sprint_plan_s01.md",
-    "../../runtime/artifacts/pipe-2026-05-01-eff01719/current_task.json",
-    "../../runtime/artifacts/pipe-2026-05-01-eff01719/AI_IMPLEMENTATION_BRIEF.md",
-    "../../runtime/artifacts/pipe-2026-05-01-eff01719/AI_IMPLEMENTATION_BRIEF.md",
-    "../../runtime/artifacts/pipe-2026-05-01-eff01719/verification_result.json",
-    "../../runtime/artifacts/pipe-2026-05-01-eff01719/verification_result.md",
+    "../../runtime/artifacts/pipe-2026-05-01-bf87cb36/sprint_plan_s01.md",
+    "../../runtime/artifacts/pipe-2026-05-01-bf87cb36/current_task.json",
+    "../../runtime/artifacts/pipe-2026-05-01-bf87cb36/AI_IMPLEMENTATION_BRIEF.md",
+    "../../runtime/artifacts/pipe-2026-05-01-bf87cb36/AI_IMPLEMENTATION_BRIEF.md",
+    "../../runtime/artifacts/pipe-2026-05-01-bf87cb36/verification_result.json",
+    "../../runtime/artifacts/pipe-2026-05-01-bf87cb36/verification_result.md",
     "project_work\\ai_project_tasks\\active\\AI_IMPLEMENTATION_BRIEF.md"
   ],
-  "pr_number": 12,
-  "pr_url": "https://github.com/rnettles/adp-dryrun/pull/12"
+  "pr_number": 13,
+  "pr_url": "https://github.com/rnettles/adp-dryrun/pull/13"
 }
