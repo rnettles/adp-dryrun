@@ -1,0 +1,93 @@
+{
+  "task_id": "UNKNOWN",
+  "result": "FAIL",
+  "summary": "REV-001 gate failed: 1 required input(s) absent — AI_RULES.md.",
+  "required_corrections": [
+    "Provide required artifact: AI_RULES.md"
+  ],
+  "command_results": [],
+  "checks": [
+    {
+      "check_number": 1,
+      "check_name": "task_id_alignment",
+      "category": "filesystem",
+      "result": "NOT_RUN",
+      "evidence": "REV-001 gate blocked verification — missing: AI_RULES.md"
+    },
+    {
+      "check_number": 2,
+      "check_name": "deliverable_completeness",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "REV-001 gate blocked verification — missing: AI_RULES.md"
+    },
+    {
+      "check_number": 3,
+      "check_name": "file_evidence",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "REV-001 gate blocked verification — missing: AI_RULES.md"
+    },
+    {
+      "check_number": 4,
+      "check_name": "contradiction_guardrail_behavior",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "REV-001 gate blocked verification — missing: AI_RULES.md"
+    },
+    {
+      "check_number": 5,
+      "check_name": "contradiction_guardrail_tests",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "REV-001 gate blocked verification — missing: AI_RULES.md"
+    },
+    {
+      "check_number": 6,
+      "check_name": "test_existence",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "REV-001 gate blocked verification — missing: AI_RULES.md"
+    },
+    {
+      "check_number": 7,
+      "check_name": "ci_evidence_quality",
+      "category": "command",
+      "result": "NOT_RUN",
+      "evidence": "REV-001 gate blocked verification — missing: AI_RULES.md"
+    },
+    {
+      "check_number": 8,
+      "check_name": "ui_evidence_playwright",
+      "category": "filesystem",
+      "result": "NOT_RUN",
+      "evidence": "REV-001 gate blocked verification — missing: AI_RULES.md"
+    },
+    {
+      "check_number": 9,
+      "check_name": "active_artifact_integrity",
+      "category": "filesystem",
+      "result": "NOT_RUN",
+      "evidence": "REV-001 gate blocked verification — missing: AI_RULES.md"
+    },
+    {
+      "check_number": 10,
+      "check_name": "scope_expansion_guard",
+      "category": "governance",
+      "result": "NOT_RUN",
+      "evidence": "REV-001 gate blocked verification — missing: AI_RULES.md"
+    }
+  ],
+  "verified_at": "2026-05-01T03:01:09.619Z",
+  "handoff": {
+    "changed_scope": [],
+    "verification_state": "fail",
+    "open_risks": [
+      "REV-001: required inputs absent — AI_RULES.md"
+    ],
+    "next_role_action": "implementer_retry",
+    "evidence_refs": [
+      "required-input:AI_RULES.md"
+    ]
+  }
+}
