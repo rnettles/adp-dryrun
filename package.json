@@ -1,0 +1,10 @@
+{
+  "name": "adp-dryrun",
+  "version": "1.0.0",
+  "description": "Dry-run sandbox repository for ai-delivery-platform pipeline testing",
+  "scripts": {
+    "test": "exit 0",
+    "lint": "exit 0",
+    "build": "exit 0"
+  }
+}
