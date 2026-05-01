@@ -1,4 +1,4 @@
-**Status:** Approved
+Status: Approved
 
 # FR-1.3: Dry-run verifier failure causes implementer retry
 
@@ -13,4 +13,4 @@ When the active scenario forces a verifier FAIL, the pipeline shall pause in `pa
 ---
 
 **FR Document ID:** FRD-001
-**Status:** Approved
+Status: Approved

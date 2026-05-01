@@ -1,4 +1,4 @@
-**Status:** Approved
+Status: Approved
 
 # FR-1.2: Dry-run pipeline exercises sprint-controller, implementer, and verifier
 
@@ -13,4 +13,4 @@ The system shall chain sprint-controller → implementer → verifier in dry-run
 ---
 
 **FR Document ID:** FRD-001
-**Status:** Approved
+Status: Approved

@@ -1,4 +1,4 @@
-**Status:** Approved
+Status: Approved
 
 # FR-1.1: Dry-run pipeline initiates planner phase
 
@@ -12,4 +12,4 @@ The system shall allow a dry-run pipeline to invoke the planner role and produce
 ---
 
 **FR Document ID:** FRD-001
-**Status:** Approved
+Status: Approved
