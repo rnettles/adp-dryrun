@@ -1,0 +1,4 @@
+Dry-run stub file written by MockLlmProvider.
+role=implementer
+occurrence=1
+outcome=pass
