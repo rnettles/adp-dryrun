@@ -1,0 +1,22 @@
+{
+  "pipeline_id": "pipe-2026-05-01-243e9caa",
+  "sprint_id": "s01",
+  "sprint_branch": "feature/S01-001",
+  "last_completed_task_id": "S01-001",
+  "closeout_role": "sprint-controller",
+  "closeout_scope": "task",
+  "gate_result": "PASS",
+  "close_out_phase_completed": "pr_confirmed",
+  "verifier_summary": "All 10 verification checks passed.",
+  "sprint_complete_artifacts": [
+    "../../runtime/artifacts/pipe-2026-05-01-243e9caa/sprint_plan_s01.md",
+    "../../runtime/artifacts/pipe-2026-05-01-243e9caa/current_task.json",
+    "../../runtime/artifacts/pipe-2026-05-01-243e9caa/AI_IMPLEMENTATION_BRIEF.md",
+    "../../runtime/artifacts/pipe-2026-05-01-243e9caa/AI_IMPLEMENTATION_BRIEF.md",
+    "../../runtime/artifacts/pipe-2026-05-01-243e9caa/verification_result.json",
+    "../../runtime/artifacts/pipe-2026-05-01-243e9caa/verification_result.md",
+    "project_work\\ai_project_tasks\\active\\AI_IMPLEMENTATION_BRIEF.md"
+  ],
+  "pr_number": 9,
+  "pr_url": "https://github.com/rnettles/adp-dryrun/pull/9"
+}
