@@ -4,5 +4,5 @@
     "strict": false,
     "skipLibCheck": true
   },
-  "include": []
+  "include": ["src"]
 }
